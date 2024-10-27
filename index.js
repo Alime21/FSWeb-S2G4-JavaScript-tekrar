@@ -109,7 +109,7 @@ for (let i = 1; i<sayilar.length; i++) {
     enbuyuk = sayilar[i];
   }
 }
-/* kodlar buraya */
+
 
 // 3b çözümü:
 ucetambolunenler = [];
@@ -119,13 +119,11 @@ sayilar.forEach(sayi => {
   }
 });
 
-/* kodlar buraya */
 
 // 3c çözümü:
 ucebolunenlerintoplami = ucetambolunenler.reduce((toplam,sayi) => toplam + sayi,0);
 console.log(ucebolunenlerintoplami);
 
-/* kodlar buraya */
 
 // 3d çözümü
 
